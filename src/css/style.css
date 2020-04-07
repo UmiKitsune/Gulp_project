@@ -18,3 +18,14 @@ main, header, footer{
     background: #fecd7e;
     height: 50px;
 }
+
+.orange >span {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.yellow {
+    background: #ffed81;
+    height: 50px;
+}
