@@ -1,0 +1,23 @@
+main {
+    @extend %base;
+}
+
+.green {
+    background: #b6d884;
+    height: $lineHeight;
+}
+
+.lightblue {
+    background: #6acbde;
+    height: $lineHeight;
+}
+
+.blue {
+    background: #7c8bc6;
+    height: $lineHeight;
+}
+
+.purple {
+    background: #9977b4;
+    height: $lineHeight;
+}

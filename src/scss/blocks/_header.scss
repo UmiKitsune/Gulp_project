@@ -1,0 +1,26 @@
+header {
+    @extend %base;
+}
+.red {
+    background: #f69c9a;
+    height: $lineHeight;
+}
+.red > span {
+    margin-left: $margin-L20;  
+}
+.orange {
+    background: #fecd7e;
+    height: $lineHeight;
+}
+
+.orange >span {
+    margin-left: $margin-L20 + 10px;
+}
+
+.yellow {
+    background: #ffed81;
+    height: $lineHeight;
+}
+.yellow > span {
+    margin-left: $margin-L20 + 20px;
+}

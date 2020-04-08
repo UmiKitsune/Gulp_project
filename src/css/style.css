@@ -11,7 +11,7 @@ span {
 
 .red {
     background: #f69c9a;
-    height: 49px;
+    height: 50px;
 }
 .red > span {
     margin-left: 20px;  
