@@ -1,54 +1,45 @@
-main, header{
-    width: 100%;
-    margin: 0;
-    font-size: 25px;
-}
+header, main {
+  width: 100%;
+  margin: 0;
+  font-size: 25px; }
 
 span {
-    display: inline-block;
-    margin-top: 10px;
-}
+  display: inline-block;
+  margin-top: 10px; }
 
 .red {
-    background: #f69c9a;
-    height: 50px;
-}
+  background: #f69c9a;
+  height: 50px; }
+
 .red > span {
-    margin-left: 20px;  
-}
+  margin-left: 20px; }
 
 .orange {
-    background: #fecd7e;
-    height: 50px;
-}
+  background: #fecd7e;
+  height: 50px; }
 
-.orange >span {
-    margin-left: 30px;
-}
+.orange > span {
+  margin-left: 30px; }
 
 .yellow {
-    background: #ffed81;
-    height: 50px;
-}
+  background: #ffed81;
+  height: 50px; }
+
 .yellow > span {
-    margin-left: 40px;
-}
+  margin-left: 40px; }
+
 .green {
-    background: #b6d884;
-    height: 50px;
-}
+  background: #b6d884;
+  height: 50px; }
 
 .lightblue {
-    background: #6acbde;
-    height: 50px;
-}
+  background: #6acbde;
+  height: 50px; }
 
 .blue {
-    background: #7c8bc6;
-    height: 50px;
-}
+  background: #7c8bc6;
+  height: 50px; }
 
 .purple {
-    background: #9977b4;
-    height: 50px;
-}
+  background: #9977b4;
+  height: 50px; }

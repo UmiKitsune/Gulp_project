@@ -1,0 +1,9 @@
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/footer';
+
+
+span {
+    @extend %allSpan;
+}

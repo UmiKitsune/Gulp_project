@@ -1,9 +1,0 @@
-@include variables;
-@include _header;
-@include _main;
-@include _footer;
-
-
-span {
-    @extend %allSpan;
-}
