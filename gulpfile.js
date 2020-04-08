@@ -21,8 +21,6 @@ gulp.task('scss', function() {
 
 });
 
-
-
 //следим за изменениями в файлах и обновляем браузер
 gulp.task('watch', function() {
     gulp.watch(["./src/*.html", "./src/js/*.js", "./src/img/*.*"]).on('change', browserSync.reload);
