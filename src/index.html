@@ -11,37 +11,119 @@
 <body>
     <header>
         <div class="red">
-            <span>Создаем Git(нажмите)</span>
+            <span>Создаем Git(тык)</span>
         </div>
         <div class="orange">
-            <span>Верстаем страницу в разных ветках, собираем сайт </span>
+            <span>Верстаем страницу в разных ветках, собираем сайт(тык) </span>
         </div>
         <div class="yellow">
-            <span>Galp</span>
+            <span>Установка Gulp(тык)</span>
         </div>
     </header>
     
     <main>
         <div class="green">
-            <span></span>
+            <span>Sass(тык)</span>
         </div>
 
         <div class="lightblue">
-            <span></span>
+            <span>Заканчиваем проект(тык)</span>
         </div>
 
         <div class="blue">
-            <span></span>
+            <span>Загружаем на GitHub(тык)</span>
         </div>
 
         <div class="purple">
-            <span></span>
+            <span>Profit. Вы велеколепны!)(тык)</span>
         </div>
         
     </main>
 
+    <footer>
+        <div class="block">
+            
+        <div class="git">
+            <h2>Git</h2>
+            <ol>
+                <li>$<span>git init </span> - инициализируем git в проект </li>
+                <li>
+                    $<span>git config --global user.name "<i>имя пользователя</i>"</span> <br>
+                    $<span>git config --global user.email <i>ваш мейл@gmail.com</i></span> 
+                </li>
+                <li>$<span>git add . </span> - добавляем все в отслеживание изменений</li>
+                <li>$<span>git commit -m "комментарий измений" </span> - комменитируем изменения</li>
+                <li>$<span>git status </span> - статус изменений</li>
+            </ol>
+        </div>
 
-    <script src="js/script.js"></script>
+        <div class="gitBranches">
+            <h2>Git Branches</h2>
+            <ol>
+                <li>$<span>git branch <i>имя ветки</i> </span> - создаем новую ветку в проекте</li>
+                <li>$<span>git branch</span> - посмотерть все ветки в проекте</li>
+                <li>$<span>git checkout <i>имя ветки</i></span> - переход в нужную ветку</li>
+            </ol>
+            <p>Не забывайте использовать add и commit для "сохраниения" изменений!</p>
+
+            <h2>Сливаем все ветки в основную ветку master</h2>
+            <ol>
+                <li>$<span>git merge <i>имя ветки</i> </span> - собираем ветки в основной</li>
+                <li>$<span>git branch -D <i>имя ветки</i></span> - удаляем ненужные ветки</li>
+            </ol>
+        </div>
+            
+
+            <div class="gulp">
+                <h2>Gulp</h2>
+                <ol>
+                    <li>Необходимо установить Node.js и npm! Проверка что они есть: <span>node -v</span> и <span>npm -v</span></li>
+                    <li>$<span>npm i gulp-cli -g</span> - устанавливаем gulp-cli  глобально</li>
+                    <li>$<span>npm init --yes </span> - инициализация</li>
+                    <li>$<span>npm i gulp </span> - устанавливаем gulp локально в проект</li>
+                    <li>Cоздаем файлы<span>.gitignore</span> и <span>gulpfile.js</span></li>
+                    <li>В<span>.gitignore</span> записываем файлы, которые не нужно отслежтвать.<br>
+                        Например: node_modules.</li>
+                    <li>Cоздаем таски в <span>gulpfile.js</span></li>
+                    <li>Дополнительно: $<span>npm install browser-sync</span> - для создания сервера</li>
+
+                </ol>
+            </div>
+
+            <div class="sass">
+                <h2>Sass</h2>
+                <ol>
+                    <li>$<span>npm i gulp-sass</span> - устанавливаем gulp в проект</li>
+                    <li>Создаем основной sass-файл и несколько мелких(если необходимо)</li>
+                    <li>Описываем task в <span>gulpfile.js</span></li>
+                    <li>Прописываем стили</li>
+                </ol>
+            </div>
+
+            <div class="over">
+                <img src="img/over.jpg" alt="">
+                <img src="img/over2.jpg" alt="">
+            </div>
+
+            <div class="gitHub">
+                <h2>GitHub</h2>
+                <ol>
+                    <li>Регестрируемся на GitHub и создаем новый проект.</li>
+                    <li>$<span>git remote add origin https://github.com/<i>ваш логин</i>/<i>имя репозитория</i>.git</span> - связываем удаленный репозиторий с проектом.</li>
+                    <li>$<span>git push -u origin master</span> - запушиваем код.</li>
+                    <li>$<span>git push</span> - после этого пользуемся сокращенной записью.</li>
+                </ol>
+            </div>
+
+            <div class="profit">
+                <img src="img/profit.jpg" alt="">
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>

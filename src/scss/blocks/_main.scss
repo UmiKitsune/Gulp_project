@@ -7,9 +7,17 @@ main {
     height: $lineHeight;
 }
 
+.green > span {
+    margin-left: $margin-L20 + 30px;
+}
+
 .lightblue {
     background: #6acbde;
     height: $lineHeight;
+}
+
+.lightblue > span {
+    margin-left: $margin-L20 + 40px;
 }
 
 .blue {
@@ -17,7 +25,15 @@ main {
     height: $lineHeight;
 }
 
+.blue > span {
+    margin-left: $margin-L20 + 50px;
+}
+
 .purple {
     background: #9977b4;
     height: $lineHeight;
+}
+
+.purple > span {
+    margin-left: $margin-L20 + 60px;
 }
