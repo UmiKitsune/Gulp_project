@@ -1,0 +1,12 @@
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/footer';
+
+
+body {
+    background-color: rgba(255, 244, 228, 0.5);
+}
+span {
+    @extend %allSpan;
+}

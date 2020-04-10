@@ -1,0 +1,98 @@
+footer {
+    width: 90%;
+    height: 350px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    line-height: 22px;
+}
+
+.block {
+    width: 90%;
+    margin: auto;
+    color:rgb(83, 83, 248);
+}
+p {
+    color: green;
+}
+
+.git,
+.gitBranches,
+.gulp, 
+.sass, 
+.over, 
+.gitHub, 
+.profit {
+
+    display: none;
+}
+
+.git ol > li > span {
+    color: #fa7775;   
+    margin: 0;
+}
+.gitBranches ol > li > span{
+    color: orangered;
+}
+
+.gulp ol > li > span {
+    color: #fde910;
+    background-color: grey;
+}
+
+.sass ol > li > span{
+    color: green;
+    margin: 0;
+}
+
+.gitHub ol > li > span{
+    color: blue;
+    margin: 0;
+}
+.gitHub{
+    color: black;
+}
+
+.profit ol > li > span{
+    color: purple;
+    margin: 0;
+}
+
+.over >img {
+    width: 600px;
+}
+
+@media(max-width: 1521px) {
+    .over >img {
+        width: 500px;
+    }
+}
+
+@media(max-width: 1272px) {
+    .over >img {
+        width: 400px;
+    }
+}
+
+@media(max-width: 1030px) {
+    .over >img {
+        width: 350px;
+    }
+}
+
+@media(max-width: 905px) {
+    .over >img {
+        width: 330px;
+    }
+}
+@media(max-width: 670px) {
+    .block{
+        width: 100%;
+    }
+    .profit >img {
+        width: 420px;
+        
+    }
+}
+
