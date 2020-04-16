@@ -111,7 +111,7 @@ p {
 .over > img {
   width: 600px; }
 
-@media (max-width: 1521px) {
+/*@media (max-width: 1521px) {
   .over > img {
     width: 500px; } }
 
@@ -125,13 +125,78 @@ p {
 
 @media (max-width: 905px) {
   .over > img {
-    width: 330px; } }
+    width: 330px; } }*/
 
-@media (max-width: 670px) {
+    @media (max-width: 750px) {
+      header, main {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .red,
+      .orange,
+      .yellow,
+      .green,
+      .lightblue,
+      .blue,
+      .purple{
+        width: 49%;
+        height: 120px;
+        text-align: center;
+        margin: 0;
+      }
+
+      .red > span,
+      .orange > span,
+      .yellow > span,
+      .green > span,
+      .lightblue > span,
+      .blue > span,
+      .purple > span
+      {
+        width: 90%;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .red span::before {
+        content: "1) ";
+      }
+      .orange span::before {
+        content: "2) ";
+      }
+      .yellow span::before {
+        content: "3) ";
+      }
+      .green span::before {
+        content: "4) ";
+      }
+      .lightblue span::before {
+        content: "5) ";
+      }
+      .blue span::before {
+        content: "6) ";
+      }
+      .purple span::before {
+        content: "7) ";
+      }
+
+      footer {
+        width: 99%;
+        height: 550px;
+      }
+    }
+
+/*@media (max-width: 670px) {
   .block {
     width: 100%; }
   .profit > img {
-    width: 420px; } }
+    width: 420px; } }*/
 
 body {
   background-color: rgba(255, 244, 228, 0.5); }

@@ -22,7 +22,6 @@ window.onload = function() {
         key.addEventListener('click', function() {
             openNewInfo(value);
         });  
-        console.log('создан листинер для - ' + key);
     });
 
 
