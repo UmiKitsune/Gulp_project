@@ -8,6 +8,6 @@
   <li>html&css</li>
   <li>js</li>
   <li>node.js</li>
-  <li></li>
 </ul>
 
+<a href="https://umikitsune.github.io/Gulp_project/">Посмотреть демо</a>
